@@ -15,17 +15,20 @@ This guide provides step-by-step instructions for setting up and running the Dja
     cd speech_recognizer
 
 2. **Create Conda Enviornment:**
+    ```bash
     conda env create -f environment.yml
-
     conda activate myDjangoEnv
 
 3. **Run the Django Development Server:**
+    ```bash
    python manage.py runserver
 
 4. **Accessing the Application:**
+    ```bash
     Once the server is running, access the application at http://localhost:8000.
 
 5. **Using the Application:**
+    ```bash
     Please tell your name ...
     Listening Text ...
     Recognizing Text ...
@@ -50,6 +53,6 @@ This guide provides step-by-step instructions for setting up and running the Dja
     [28/Feb/2024 16:09:38] "GET / HTTP/1.1" 200 1089
 
 6. **Output:**
-
-<img src="static/voice_recognizer/img1.jpg" alt="Sample Image">
-![Sample Image](`static/voice_recognizer/img1.jpg`)
+    ```bash
+    Output Sample
+    <img src="static/voice_recognizer/img1.png" alt="Sample Image">
