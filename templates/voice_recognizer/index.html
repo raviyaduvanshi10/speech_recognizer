@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Filled</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'voice_recognizer/styles.css' %}">
+</head>
+
+<body>
+    <h2>User Details</h2>
+    <!-- <label for="name">Name: {{ name }}</label> -->
+    <!-- <label for="job">Job Role: {{job}} </label>
+    <label for="city">City: {{city}} </label>
+    <label for="state">State: {{state}} </label>
+    <label for="country">Country: {{country}} </label> -->
+    <!-- <h2>{{ status }}</h2> -->
+    <table>
+        <thead>
+            <tr>
+                <th>User Fields</th>
+                <th>User Deatils</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for key, value in data.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h2> User has submitted data! </h2>
+</body>
+
+</html>
