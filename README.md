@@ -59,3 +59,16 @@ This guide provides step-by-step instructions for setting up and running the Dja
     Output Sample On Webapp:
 
 <img src="static/voice_recognizer/img1.png" alt="Sample Image">
+
+
+## Thanks
+
+Thank you for taking the time to check my project! I hope you found it good.
+
+If you have any questions, suggestions, or feedback, feel free to [reach out to me](mailto:raviyaduvanshi52@gmail.com).
+
+I greatly appreciate your time!
+
+---
+
+**[SPEECH_RECOGNIZER](https://github.com/raviyaduvanshi10/speech_recognizer.git)**
