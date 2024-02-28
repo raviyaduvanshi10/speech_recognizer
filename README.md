@@ -29,7 +29,7 @@ This guide provides step-by-step instructions for setting up and running the Dja
 
 5. **Using the Application:**
     ```bash
-    Voice Input Sample Once You Access the URL:
+    Voice Input Sample In Bash Once You Access the URL:
 
     Please tell your name ...
     Listening Text ...
@@ -56,6 +56,6 @@ This guide provides step-by-step instructions for setting up and running the Dja
 
 6. **Output:**
     ```bash
-    Output Sample:
+    Output Sample On Webapp:
 
 <img src="static/voice_recognizer/img1.png" alt="Sample Image">
